@@ -14,7 +14,7 @@ body {
 }
 
 .mine-page-wrapper {
-  background-image: url(/project-v/img/hero.jpg) center top no-repeat, url(/project-v/img/bottom-pic.jpg) center bottom 306px no-repeat;
+  background-image: url("/project-v/img/hero.jpg") center top no-repeat, url("/project-v/img/bottom-pic.jpg") center bottom 306px no-repeat;
 }
 
 .header__logo {
@@ -305,7 +305,7 @@ margin-right: 0;
 }
 
 .autor__content {
-  background-image: url(/project-v/img/cameraman.jpg);
+  background-image: url("/project-v/img/cameraman.jpg");
   width: 490px;
   height: 505px;
   display: block;
