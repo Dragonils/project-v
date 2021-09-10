@@ -1,0 +1,191 @@
+.rewiews {
+  column-count: 2;
+  column-gap: 27px  ;
+  margin-bottom: 70px;
+}
+
+.rewiew {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 32px 32px;
+  background: #F4F5F5;
+  border-radius: 5px;
+}
+
+.rewiews__item {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+}
+
+.rewiew__header {
+  display: flex;
+  align-items: center;
+}
+
+.rewiew__user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px ;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1A1B1E;
+}
+.rewiew__user:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.rewiew__user::after {
+  content: url(img/rewiews/vk-blue.png);
+  height: 29px;
+  margin-left: 8px;
+}
+
+.rewiew__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 10px 25px;
+  border-radius: 35px;
+  background: #E7E7E7;
+}
+
+.rewiew__tag--item {
+  background: #F2D4C9;
+  margin-left: 20px;
+}
+
+.rewiew__title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #202020;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.rewiew__content-text {
+  color: #818181;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.rewiew__date {
+  color: #1A1B1E;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sale {
+  min-height: 363px;
+  background: #373737 url(/img/rewiews/party.png) center right 20% no-repeat;
+
+}
+
+.sale__text {
+  color: #fff;
+  font-weight: bold;
+  min-height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 45%  ;
+}
+
+.sale__elem {
+  font-size: 48px;  
+}
+
+.text__color {
+  color: #FF5300;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 22px 30px;
+  color: #1A1B1E;
+  font-size: 18px;
+}
+
+.form__input:last-child {
+  margin-right: 0px;
+}
+
+.form__input:placeholder {
+color: #666;
+}
+
+.form__input--textarea {
+  height: 232px   ;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.form__controls--title {
+  width: 40%;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.conrols__checkbox:checked ~ .controls__tag {
+  background: #F2D4C9;
+}
+
+.conrols__checkbox {
+  display: none;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn--color--gray {
+  background: #8E8E8E;
+}
+
+.form--btn {
+  margin-right: 20px;
+  height: 55px;
+  width: 168px;
+  padding: 0;
+}
+
+.form--btn:last-child {
+  margin-right: 0px;
+}
