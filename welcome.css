@@ -1,0 +1,62 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(img/welcome/bg.jpg) center bottom / cover no-repeat;
+}
+.welcome__container {
+  display: flex;
+  width: 1128px;
+  height: 643px;
+  align-items: center;
+  justify-content: center;
+  background: url(img/welcome/rec.png) center bottom;
+  animation: recanim 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes recanim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central__logo {
+  margin-bottom: 38px;
+}
+
+.central--video {
+  opacity: 0;
+  animation: myanim 0.85s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myanim {
+  from {
+    transform: scale(.1) rotate(35deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
